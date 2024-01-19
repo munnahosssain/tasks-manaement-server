@@ -1,0 +1,21 @@
+{
+  "name": "tasks-management-server",
+  "version": "1.0.0",
+  "description": "task management software includes basic features to help you build and manage tasks and project(server).",
+  "main": "app.js",
+  "author": "mayinuddin-manna",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.0",
+    "nodemon": "^3.0.3"
+  }
+}
